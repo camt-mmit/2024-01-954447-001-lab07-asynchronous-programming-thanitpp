@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "week-07": {
+    "my-ng": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/week-07",
+            "outputPath": "dist/my-ng",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [],
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "week-07:build:production"
+              "buildTarget": "my-ng:build:production"
             },
             "development": {
-              "buildTarget": "week-07:build:development"
+              "buildTarget": "my-ng:build:development"
             }
           },
           "defaultConfiguration": "development"
